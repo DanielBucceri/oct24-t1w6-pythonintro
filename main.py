@@ -30,11 +30,14 @@
 # performer = input("Enter performer type: ")
 # calculate_ticket_price_for_performer(price, performer)
 
-day_of_week = 7
-match day_of_week:
-     case 1 | 2 | 3 | 4 | 5:
-          print("Tis a weekday")
-     case 6 | 7:
-          print("Tis weekEND")
-     case 6 | 7:
-        print("Tis weekEND")
+# day_of_week = 7
+# match day_of_week:
+#      case 1 | 2 | 3 | 4 | 5:
+#           print("Tis a weekday")
+#      case 6 | 7:
+#           print("Tis weekEND")
+#      case 6 | 7:
+#         print("Tis weekEND")
+
+is_raining = False
+print('i need coat!' if is_raining else 'Jks no coat')
